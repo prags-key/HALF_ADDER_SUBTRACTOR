@@ -54,13 +54,14 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-/* module exp3(a,b,c,d,sum,carry,diff,borrow);
+```/* module exp3(a,b,c,d,sum,carry,diff,borrow);
 input a,b,c,d; output sum,carry,diff,borrow;assign sum = a^b; 
 assign carry = a&b; 
 assign diff = c^d; assign borrow = ~c&d; 
 endmodule
 Developed by:PRAGATHI KUMAR
 RegisterNumber:24006285 */
+```
 
 **RTL Schematic**
 ![Screenshot 2024-12-08 183121](https://github.com/user-attachments/assets/2e2ef49c-cb0a-482f-a28b-f698c0d26769)
